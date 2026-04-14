@@ -17,7 +17,7 @@ Go 性能调试工具链学习与实战（pprof、火焰图、trace 等）
 ├── 03-pprof/             # pprof：核心性能分析工具（含火焰图）
 ├── 04-go-tool-trace/     # go tool trace：runtime 全链路追踪
 ├── 05-netpoll/           # netpoll：网络 I/O 非阻塞轮询器
-└── 06-dlv/               # dlv（Delve）：Go 官方调试器
+├── 06-dlv/               # dlv（Delve）：Go 官方调试器
 └── README.md
 ```
 

@@ -1,5 +1,12 @@
 # delve（dlv）
 
+## 学习顺序（推荐）
+
+1. [dlv 使用指南](./01-usage-guide.md)（debug/exec/attach、断点与 goroutine）
+2. [dlv 实战案例](./02-practice-demo.md)（死锁排查、runtime 源码调试、线上复现流程）
+3. [dlv 底层原理](./03-principle.md)（调试器机制、符号与优化/内联影响）
+4. [dlv 面试总结](./04-interview-summary.md)（工具分工、死锁排查表达模板）
+
 ## 核心作用
 
 Go 官方调试器：断点、单步、变量查看、goroutine/线程切换、core dump 调试，适合复现线上问题与深入 runtime 行为。

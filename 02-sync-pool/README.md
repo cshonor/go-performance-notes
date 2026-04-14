@@ -1,5 +1,12 @@
 # sync.Pool
 
+## 学习顺序（推荐）
+
+1. [sync.Pool 使用指南](./01-usage-guide.md)（Get/Put、适用场景、避坑）
+2. [sync.Pool 实战案例](./02-practice-demo.md)（高并发复用优化 + pprof 验证）
+3. [sync.Pool 底层原理](./03-principle.md)（与 P 绑定、GC 清理机制）
+4. [sync.Pool 面试总结](./04-interview-summary.md)（高频问答与表达模板）
+
 ## 核心作用
 
 复用临时对象，减少分配次数与 GC 压力，常用于高频、短生命周期对象（buffer、临时结构体等）。

@@ -1,5 +1,12 @@
 # pprof
 
+## 学习顺序（推荐）
+
+1. [pprof 使用指南](./01-usage-guide.md)（6 大采样类型、采集与分析）
+2. [火焰图详解与实战](./02-flame-graph-analysis.md)（pprof 原生火焰图、解读方法）
+3. [问题排查实战案例](./03-practice-demo.md)（泄漏/锁竞争/内存问题的证据链）
+4. [pprof 面试总结](./04-interview-summary.md)（高频问答与表达模板）
+
 ## 为什么先学 pprof
 
 `pprof` 是 Go 性能排查的 **默认入口工具**：

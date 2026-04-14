@@ -1,5 +1,12 @@
 # go tool trace
 
+## 学习顺序（推荐）
+
+1. [trace 使用指南](./01-usage-guide.md)（采集方式、核心视图、操作方法）
+2. [trace 实战案例](./02-practice-demo.md)（阻塞/GC STW/调度延迟/网络 I/O 排查）
+3. [trace 底层原理](./03-principle.md)（runtime 事件、与 GMP/GC 的关联）
+4. [trace 面试总结](./04-interview-summary.md)（与 pprof 区别、排查流程、高频问答）
+
 ## 核心作用
 
 追踪 Go runtime 全流程事件：调度（G/M/P）、GC、系统调用、网络 I/O、用户任务等，用于定位“慢在 runtime 里哪里”。
